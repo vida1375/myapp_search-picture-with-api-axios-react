@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+#root{
+    width: 100%;
+    height: 100%;
+}
+.wrapper{
+display: flex;
+width: 100%;
+height: 100%;
+}
+.coll{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 80%;
+}
+.profile{
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+    font-size: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.profile h1{
+    font-size: 22px;
+}
+.profile img{
+    width: 120px;
+    height: 120px;
+    margin-left: 408px;
+    padding-right: 18px;
+}
+.profile p{
+    text-align: left;
+    margin-left: 20px;
+}
+.wallet{
+    width: 371%;
+    height: 50%;
+    border: 1px solid black;
+    font-size: 10px;
+    margin-left: 44px;
+    margin-top: 10px;
+}
+.wallet h1{
+    font-size: 22px;
+}
+.wallet p{
+    text-align: center;
+    margin-left: 20px;  
+}
+.sopportt{
+    width: 371%;
+    height: 48%;
+    border: 1px solid black;
+    font-size: 10px;
+    margin-left: 44px; 
+    margin-top: 10px; 
+}
+.sopportt h1{
+    font-size: 22px;
+}
+.sopportt p{
+    text-align: center;
+    margin-left: 20px; 
+}
+.help{
+    width: 371%;
+    height: 48%;
+    text-align:center ;
+}
+.help p{
+    text-align: center;
+}
+.seasonn{
+    width: 371%;
+    height: 48%;
+    text-align:center ;
+}
+.seasonn img{
+    width: 120px;
+    height: 120px;
+    margin-left: 12px;
+    padding-right: 18px;
+}
+.seasonn p{
+    text-align: center;
+}
+.search{
+    margin-top: 19px;
+    margin-left: 40px;
+}
+.search input{
+    height: 26px;
+    margin-top: 18px;
+    border-radius: 5vh;
+    width: 339px;
+    margin-left: 234px;
+    padding-left: 10px;
+}
+.search label{
+    margin-left: 234px;
+}
+.search button{
+    margin-Left: 399px;
+    margin-top: 31px;
+    background-color: blue;
+    color: white;
+    width: 77px;
+    height: 38px;
+}
+.image-list img{
+    height: 60vh;
+    width: 60vh;
+    float: left;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+.image-list h2{
+    margin-left: 40px;
+    cursor: pointer;
+}
